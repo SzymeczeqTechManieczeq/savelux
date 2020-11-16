@@ -28,3 +28,5 @@ if a == 'kom':
         os.system(f'7z a {d} {c}')
     if '.tar' in d:
         os.system(f'tar cf {d} {c}')
+    if '.tar.gz' or '.tar.xz' in d:
+        os.system(f'tar -czfv {d} {c}')    
