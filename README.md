@@ -1,2 +1,2 @@
-# savelux
-apps for savelux
+# calculator
+simple calculator
